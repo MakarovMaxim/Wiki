@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		664E10EE2B81487500719F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E10ED2B81487500719F50 /* AppDelegate.swift */; };
+		664E10F02B81487500719F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E10EF2B81487500719F50 /* ViewController.swift */; };
+		664E10F32B81487500719F50 /* Wiki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 664E10F12B81487500719F50 /* Wiki.xcdatamodeld */; };
+		664E10F52B81487600719F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664E10F42B81487600719F50 /* Assets.xcassets */; };
+		664E10F82B81487600719F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664E10F62B81487600719F50 /* Main.storyboard */; };
+		664E11032B81487600719F50 /* WikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E11022B81487600719F50 /* WikiTests.swift */; };
+		664E110D2B81487600719F50 /* WikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E110C2B81487600719F50 /* WikiUITests.swift */; };
+		664E110F2B81487600719F50 /* WikiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E110E2B81487600719F50 /* WikiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664E10FF2B81487600719F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664E10E22B81487500719F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664E10E92B81487500719F50;
+			remoteInfo = Wiki;
+		};
+		664E11092B81487600719F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664E10E22B81487500719F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664E10E92B81487500719F50;
+			remoteInfo = Wiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		664E10EA2B81487500719F50 /* Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		664E10ED2B81487500719F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		664E10EF2B81487500719F50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		664E10F22B81487500719F50 /* Wiki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wiki.xcdatamodel; sourceTree = "<group>"; };
+		664E10F42B81487600719F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664E10F72B81487600719F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		664E10F92B81487600719F50 /* Wiki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wiki.entitlements; sourceTree = "<group>"; };
+		664E10FE2B81487600719F50 /* WikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664E11022B81487600719F50 /* WikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiTests.swift; sourceTree = "<group>"; };
+		664E11082B81487600719F50 /* WikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664E110C2B81487600719F50 /* WikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiUITests.swift; sourceTree = "<group>"; };
+		664E110E2B81487600719F50 /* WikiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664E10E72B81487500719F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664E10FB2B81487600719F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664E11052B81487600719F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664E10E12B81487500719F50 = {
+			isa = PBXGroup;
+			children = (
+				664E10EC2B81487500719F50 /* Wiki */,
+				664E11012B81487600719F50 /* WikiTests */,
+				664E110B2B81487600719F50 /* WikiUITests */,
+				664E10EB2B81487500719F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664E10EB2B81487500719F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664E10EA2B81487500719F50 /* Wiki.app */,
+				664E10FE2B81487600719F50 /* WikiTests.xctest */,
+				664E11082B81487600719F50 /* WikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664E10EC2B81487500719F50 /* Wiki */ = {
+			isa = PBXGroup;
+			children = (
+				664E10ED2B81487500719F50 /* AppDelegate.swift */,
+				664E10EF2B81487500719F50 /* ViewController.swift */,
+				664E10F42B81487600719F50 /* Assets.xcassets */,
+				664E10F62B81487600719F50 /* Main.storyboard */,
+				664E10F92B81487600719F50 /* Wiki.entitlements */,
+				664E10F12B81487500719F50 /* Wiki.xcdatamodeld */,
+			);
+			path = Wiki;
+			sourceTree = "<group>";
+		};
+		664E11012B81487600719F50 /* WikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				664E11022B81487600719F50 /* WikiTests.swift */,
+			);
+			path = WikiTests;
+			sourceTree = "<group>";
+		};
+		664E110B2B81487600719F50 /* WikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				664E110C2B81487600719F50 /* WikiUITests.swift */,
+				664E110E2B81487600719F50 /* WikiUITestsLaunchTests.swift */,
+			);
+			path = WikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664E10E92B81487500719F50 /* Wiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664E11122B81487600719F50 /* Build configuration list for PBXNativeTarget "Wiki" */;
+			buildPhases = (
+				664E10E62B81487500719F50 /* Sources */,
+				664E10E72B81487500719F50 /* Frameworks */,
+				664E10E82B81487500719F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wiki;
+			productName = Wiki;
+			productReference = 664E10EA2B81487500719F50 /* Wiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664E10FD2B81487600719F50 /* WikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664E11152B81487600719F50 /* Build configuration list for PBXNativeTarget "WikiTests" */;
+			buildPhases = (
+				664E10FA2B81487600719F50 /* Sources */,
+				664E10FB2B81487600719F50 /* Frameworks */,
+				664E10FC2B81487600719F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664E11002B81487600719F50 /* PBXTargetDependency */,
+			);
+			name = WikiTests;
+			productName = WikiTests;
+			productReference = 664E10FE2B81487600719F50 /* WikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		664E11072B81487600719F50 /* WikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664E11182B81487600719F50 /* Build configuration list for PBXNativeTarget "WikiUITests" */;
+			buildPhases = (
+				664E11042B81487600719F50 /* Sources */,
+				664E11052B81487600719F50 /* Frameworks */,
+				664E11062B81487600719F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664E110A2B81487600719F50 /* PBXTargetDependency */,
+			);
+			name = WikiUITests;
+			productName = WikiUITests;
+			productReference = 664E11082B81487600719F50 /* WikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664E10E22B81487500719F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					664E10E92B81487500719F50 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					664E10FD2B81487600719F50 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 664E10E92B81487500719F50;
+					};
+					664E11072B81487600719F50 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 664E10E92B81487500719F50;
+					};
+				};
+			};
+			buildConfigurationList = 664E10E52B81487500719F50 /* Build configuration list for PBXProject "Wiki" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 664E10E12B81487500719F50;
+			productRefGroup = 664E10EB2B81487500719F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664E10E92B81487500719F50 /* Wiki */,
+				664E10FD2B81487600719F50 /* WikiTests */,
+				664E11072B81487600719F50 /* WikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664E10E82B81487500719F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664E10F52B81487600719F50 /* Assets.xcassets in Resources */,
+				664E10F82B81487600719F50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664E10FC2B81487600719F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664E11062B81487600719F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664E10E62B81487500719F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664E10F02B81487500719F50 /* ViewController.swift in Sources */,
+				664E10F32B81487500719F50 /* Wiki.xcdatamodeld in Sources */,
+				664E10EE2B81487500719F50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664E10FA2B81487600719F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664E11032B81487600719F50 /* WikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664E11042B81487600719F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664E110F2B81487600719F50 /* WikiUITestsLaunchTests.swift in Sources */,
+				664E110D2B81487600719F50 /* WikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664E11002B81487600719F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664E10E92B81487500719F50 /* Wiki */;
+			targetProxy = 664E10FF2B81487600719F50 /* PBXContainerItemProxy */;
+		};
+		664E110A2B81487600719F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664E10E92B81487500719F50 /* Wiki */;
+			targetProxy = 664E11092B81487600719F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		664E10F62B81487600719F50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664E10F72B81487600719F50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664E11102B81487600719F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		664E11112B81487600719F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		664E11132B81487600719F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wiki/Wiki.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AP7TRKW5A8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.Wiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		664E11142B81487600719F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wiki/Wiki.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AP7TRKW5A8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.Wiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		664E11162B81487600719F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AP7TRKW5A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.WikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wiki";
+			};
+			name = Debug;
+		};
+		664E11172B81487600719F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AP7TRKW5A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.WikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wiki";
+			};
+			name = Release;
+		};
+		664E11192B81487600719F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AP7TRKW5A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.WikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wiki;
+			};
+			name = Debug;
+		};
+		664E111A2B81487600719F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AP7TRKW5A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.WikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664E10E52B81487500719F50 /* Build configuration list for PBXProject "Wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664E11102B81487600719F50 /* Debug */,
+				664E11112B81487600719F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664E11122B81487600719F50 /* Build configuration list for PBXNativeTarget "Wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664E11132B81487600719F50 /* Debug */,
+				664E11142B81487600719F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664E11152B81487600719F50 /* Build configuration list for PBXNativeTarget "WikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664E11162B81487600719F50 /* Debug */,
+				664E11172B81487600719F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664E11182B81487600719F50 /* Build configuration list for PBXNativeTarget "WikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664E11192B81487600719F50 /* Debug */,
+				664E111A2B81487600719F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		664E10F12B81487500719F50 /* Wiki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				664E10F22B81487500719F50 /* Wiki.xcdatamodel */,
+			);
+			currentVersion = 664E10F22B81487500719F50 /* Wiki.xcdatamodel */;
+			path = Wiki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 664E10E22B81487500719F50 /* Project object */;
+}
